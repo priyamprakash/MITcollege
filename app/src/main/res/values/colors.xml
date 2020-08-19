@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Edit primary color code to change your Toolbar color, AUR status bar ko bdlne k lye primary dark ko bdlo -->
+<resources>
+    <color name="colorPrimary">#455cde</color>
+    <color name="colorPrimaryDark">#E91E63</color>
+    <color name="colorAccent">#000000</color>
+</resources>

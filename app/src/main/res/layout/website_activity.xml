@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WebsiteActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+   <ProgressBar
+       android:layout_width="match_parent"
+       android:layout_height="9dp"
+       android:id="@+id/progressBar"
+       style="?android:attr/progressBarStyleHorizontal"
+       android:layout_marginTop="-2dp"
+       android:progress="20"
+
+      />
+  <WebView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+     android:id="@+id/myWebView"
+     />
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+   <ImageView
+       android:id="@+id/noConnectionLogo"
+       android:layout_width="200dp"
+       android:layout_height="240dp"
+       android:src="@drawable/mitlogo"
+       android:layout_centerHorizontal="true"
+      />
+   <TextView
+       android:id="@+id/txtNoConnection"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="No Internet Connection"
+       android:layout_below="@+id/noConnectionLogo"
+       android:textAlignment="center"
+       android:textSize="26sp"
+      />
+      <Button
+          android:id="@+id/btnNoConnection"
+          android:layout_width="140dp"
+          android:layout_height="55dp"
+          android:text="Retry"
+          android:textColor="#fff"
+          android:background="@color/colorPrimary"
+          android:layout_below="@+id/txtNoConnection"
+          android:layout_centerHorizontal="true"
+          android:textSize="22sp"
+          android:layout_marginTop="60dp"
+          />
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

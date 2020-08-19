@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "396157818842",
+    "firebase_url": "https://mitcollege-71b82.firebaseio.com",
+    "project_id": "mitcollege-71b82",
+    "storage_bucket": "mitcollege-71b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396157818842:android:585990b64f10d5a86292e3",
+        "android_client_info": {
+          "package_name": "mitm.college"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396157818842-6rsrt7tn8bqrfmumco6t60t83mh4pp72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mitm.college",
+            "certificate_hash": "52db164d44a6807b5c01c4aee51eda9cb92e72b5"
+          }
+        },
+        {
+          "client_id": "396157818842-q0c97ks586rcg9dufaccct9i04qsv9k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRyvuSoa4Avo0SVzLp2eIDm051DOWnS0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396157818842-q0c97ks586rcg9dufaccct9i04qsv9k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
